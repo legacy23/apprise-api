@@ -7,7 +7,7 @@ services:
     environment:
       - APPRISE_STATEFUL_MODE=simple
     ports:
-      - 8000:8000
+      - 8050:8000
     volumes:
       - ./apprise_api:/opt/apprise/webapp:ro
       # if uncommenting the below, you will need to type the following
