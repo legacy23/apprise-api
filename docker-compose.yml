@@ -35,11 +35,12 @@ services:
   ##
   ## > Host service (visit http://localhost on host pc to access):
   ##   ./manage.py runserver 0.0.0.0:8000
-  test.py310:
-    ports:
-      - 8000:8000
-    build:
-      context: .
-      dockerfile: Dockerfile.py310
-    volumes:
-      - ./:/apprise-api
+  #test.py310:
+   #ports:
+   - 8000:8000
+   # build:
+   #context: .
+    
+      #dockerfile: Dockerfile.py310
+    #volumes:
+     # - ./:/apprise-api
